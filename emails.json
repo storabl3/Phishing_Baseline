@@ -1,0 +1,23 @@
+[
+  {
+    "id": "e1",
+    "from": "contato@suporte-empresa.com",
+    "subject": "Atualize sua senha URGENTE",
+    "preview": "Precisamos que atualize sua senha imediatamente...",
+    "body": "Olá, detectamos uma sessão suspeita. Clique no link abaixo para atualizar sua senha.\n\nLink: https://suporte-empresa.example/reset\n\n-- Equipe de TI"
+  },
+  {
+    "id": "e2",
+    "from": "financeiro@fornecedor.com",
+    "subject": "Fatura anexada",
+    "preview": "Segue a fatura referente ao mês...",
+    "body": "Olá, segue anexo o arquivo da fatura.\n\nAtenciosamente,\nFornecedor X"
+  },
+  {
+    "id": "e3",
+    "from": "noreply@plataforma.com",
+    "subject": "Confirmação de login",
+    "preview": "Você solicitou um login. Se não foi você...",
+    "body": "Detectamos login de novo dispositivo. Se não reconhece, altere suas configurações.\n\nAcesse: https://plataforma.example/conta"
+  }
+]
