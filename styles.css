@@ -1,0 +1,16 @@
+body{font-family:Arial, sans-serif;margin:0;background:#f5f7fa;color:#111}
+.banner{background:#0b5ed7;color:#fff;padding:16px}
+.notice{background:#fff2;display:inline-block;padding:6px 10px;border-radius:6px;margin-top:8px}
+.container{padding:20px}
+.inbox{display:grid;gap:10px;max-width:900px}
+.card{background:#fff;padding:14px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.06);cursor:pointer}
+.card .sub{color:#555;font-size:14px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center}
+.modal.hidden{display:none}
+.modal-content{background:#fff;padding:20px;border-radius:8px;max-width:760px;width:96%}
+.close{float:right;border:none;background:transparent;font-size:20px}
+.actions{margin-top:12px;display:flex;gap:8px}
+.phish{background:#d9534f;color:#fff;padding:8px;border:none;border-radius:6px}
+.safe{background:#5cb85c;color:#fff;padding:8px;border:none;border-radius:6px}
+.report{background:#0d6efd;color:#fff;padding:8px;border:none;border-radius:6px}
+.feedback{margin-top:10px;padding:8px;border-radius:6px;background:#f1f1f1}
