@@ -8,7 +8,7 @@ const feedback = document.getElementById('feedback');
 let currentMail = null;
 
 // troque pela sua URL de Google Form prefilled (obter via "Get prefilled link")
-const GOOGLE_FORM_PREFILL = 'https://docs.google.com/forms/d/e/SEU_FORM_ID/viewform?usp=pp_url&entry.111111111=__MAIL_ID__&entry.222222222=__ACAO__';
+const CRYPTPAD_PUBLIC_LINK = 'https://cryptpad.fr/form/#/2/form/view/6c6Q+xIgpqNMilHBEBIMjCGCVxZaeXQOT759ZP203aY?mailId=__MAIL_ID__';
 
 fetch('emails.json')
   .then(r => r.json())
@@ -54,8 +54,7 @@ function giveFeedback(isPhish){
 function reportAction(action){
   if(!currentMail) return;
   // abre o Google Form prefilled (substituir placeholders)
-  const url = GOOGLE_FORM_PREFILL
-    .replace('__MAIL_ID__', encodeURIComponent(currentMail.id))
-    .replace('__ACAO__', encodeURIComponent(action));
-  window.open(url, '_blank');
+  const url = CRYPTPAD_PUBLIC_LINK
+    .replace('__MAIL_ID__', encodeURIComponent(currentMail.id));
+      window.open(url, '_blank');
 }
